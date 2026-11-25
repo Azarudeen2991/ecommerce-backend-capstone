@@ -1,5 +1,6 @@
 # Maven build output
 **/target/
+**/temp-inspect/
 
 # IDE files
 .idea/
