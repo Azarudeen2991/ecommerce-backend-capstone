@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.capstone.ecommerce</groupId>
+    <artifactId>ecommerce-backend-capstone</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>E-commerce Backend Capstone</name>
+    <description>Scaler Java and Spring Boot backend capstone assignments</description>
+
+    <modules>
+        <module>modules/auth/account-activation</module>
+        <module>modules/auth/database-authentication</module>
+        <module>modules/auth/email-validation</module>
+        <module>modules/auth/jwt-issuance</module>
+        <module>modules/auth/jwt-validation</module>
+        <module>modules/auth/login</module>
+        <module>modules/auth/password-validation</module>
+        <module>modules/auth/signup</module>
+        <module>modules/catalog/category-operations</module>
+        <module>modules/catalog/product-deletion</module>
+        <module>modules/catalog/product-models</module>
+        <module>modules/catalog/product-search</module>
+        <module>modules/messaging/password-reset-email-consumer</module>
+        <module>modules/orders/cancel-order</module>
+        <module>modules/orders/order-event-consumer</module>
+        <module>modules/orders/place-order</module>
+        <module>modules/payments/razorpay/bank-payout</module>
+        <module>modules/payments/razorpay/payment-link-callback</module>
+        <module>modules/payments/razorpay/refund-management</module>
+        <module>modules/payments/razorpay/subscription-link</module>
+        <module>modules/payments/razorpay/upi-payment-link</module>
+        <module>modules/payments/stripe/checkout-session</module>
+        <module>modules/payments/stripe/payment-link-callback</module>
+        <module>modules/payments/stripe/subscription</module>
+        <module>modules/payments/stripe/webhook-management</module>
+    </modules>
+</project>
